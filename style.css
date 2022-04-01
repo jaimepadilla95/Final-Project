@@ -1,8 +1,8 @@
 *{
-  box-sizing: border-box;
+    box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgb(53, 50, 50);
+  background-color: rgba(53, 50, 50, 0);
 }
 
  li, a, button{
@@ -17,14 +17,21 @@
         display: flex;
         justify-content:flex-end;
         align-items: center;
-        padding: 30px 10%;
+        padding: 30px ;
+        background-image: url(cafe\ beans.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
-
+    
     .logo{
-        cursor: none;
+        cursor:default;
         margin-right: auto;
+        font-size: 50px;
+        width: 205px;
+        
     }
-
+    
     .nav_links{
         list-style: none;
     }
@@ -53,5 +60,138 @@
     }
 
     button:hover{
-        background-color:rgba(0,136,169,0.8)
+        background-color:rgba(0, 135, 169, 0.644)
     }
+
+    .background-image{background-image: url(/img/coffee\ 2.jpg);
+    background-size: cover;
+background-repeat: no-repeat;
+height: 600px;}
+
+.Main-heading{
+    padding: 25px;
+}
+    
+    .main-wrapper{
+            background-image: url(/img/about.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 650px;
+            background-position: center;
+    }
+    header{
+        background-image: url(/img/cafe\ beans.webp);
+    }
+    menu-container{
+       
+    }
+    .box {
+        margin-right: 25px;
+        margin-left: 50px;
+        margin-top: 1em;
+        border: 1px solid rgb(0, 0, 0);
+        height: 470px;
+        width: 250px;
+        display: inline-block; 
+       text-align: center;
+       vertical-align: top;
+    }
+
+    .about-box{ float: left;
+        margin-top: 1px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        height: 350px;
+        width: 250px;
+        display: inline-block; 
+       text-align: center;
+       vertical-align: top;
+       
+    }
+    
+
+
+    .about-background {background-image: url(/img/newnew.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width:auto;
+    background-position: center;
+}
+    
+#about-mid{background-color:rgba(255, 235, 205, 0); 
+    float: left;
+width: 40%;height: 350px;
+padding-right: 2px;}
+
+#about-left{float: left;
+    margin-left: 10%;
+width: 20%;
+height: 350px;
+overflow: hidden;
+}
+
+#about-right{float: left;
+    margin-right: 10%;
+width: 20%;
+height:350px;
+overflow:hidden;
+
+}
+
+.contact-background{background-image:url(/img/contact-background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width:auto;
+    background-position: center
+    }
+
+    form {
+        background-color: rgba(255, 255, 255, 0.75);
+        padding: 20px;
+        border-radius: 20px;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto 20px;
+        margin-top: 5px;
+        height: 450px;
+        float: left;
+        margin-left: 5px;
+    }
+
+    input[type="enter-name"],
+input[type="message"],
+input[type="email"] {
+    border: 1px solid #999;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    width: 100%;
+}
+
+#message{
+    height: 150px;
+    vertical-align:text-top;
+    border: 1px solid #999;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    width: 100%;
+    resize: none;
+}
+
+/* input[placeholder="Leave A Message"] {
+    text-align:start;
+    transform: translate3d(0,-10px,0);
+
+
+
+} */
+
+textarea{
+    text-align:left;
+}
