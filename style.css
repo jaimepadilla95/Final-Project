@@ -63,7 +63,7 @@
         background-color:rgba(0, 135, 169, 0.644)
     }
 
-    .background-image{background-image: url(/img/coffee\ 2.jpg);
+    .background-image{background-image: url(./img/coffee\ 2.jpg);
     background-size: cover;
 background-repeat: no-repeat;
 height: 600px;
@@ -74,14 +74,14 @@ height: 600px;
 }
     
     .main-wrapper{
-            background-image: url(/img/about.jpg);
+            background-image: url(./img/about.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             height: 650px;
             background-position: center;
     }
     header{
-        background-image: url(/img/cafe\ beans.webp);
+        background-image: url(./img/cafe\ beans.webp);
     }
     menu-container{
        
@@ -111,7 +111,7 @@ height: 600px;
     
 
 
-    .about-background {background-image: url(/img/newnew.jpg);
+    .about-background {background-image: url(./img/newnew.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
@@ -139,7 +139,7 @@ overflow:hidden;
 
 }
 
-.contact-background{background-image:url(/img/contact-background.jpg);
+.contact-background{background-image:url(./img/contact-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     height: 600px;
